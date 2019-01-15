@@ -1,0 +1,26 @@
+{
+  "name": "quicklyrics",
+  "version": "1.0.0",
+  "description": "Scrapes Genius for lyrics",
+  "main": "quicklyrics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/raviolliii/quicklyrics.git"
+  },
+  "keywords": [
+    "lyrics",
+    "genius",
+    "songs",
+    "api",
+    "music"
+  ],
+  "author": "Ravi Patel <ravi.patel1245@gmail.com> (https://github.com/raviolliii)",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.88.0"
+  }
+}
