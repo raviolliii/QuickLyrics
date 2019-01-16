@@ -5,8 +5,8 @@ Node.js API get song lyrics from Genius
 `npm install quicklyrics`
 
 ### Usage
-Simply call the function with an author's name, song, and a callback function.
-(Note: The lyrics are returned in an array)
+QuickLyrics has one function: `quickLyrics(artist_name, song_name, callback)`, and passes the lyrics as an **array** to the callback function (each line of the song is an element in the array).
+Example:
 ```javascript
 var quicklyrics = require("quicklyrics");
 quicklyrics("j cole", "no role modelz", function(lyrics) {

@@ -1,6 +1,6 @@
 {
   "name": "quicklyrics",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "Scrapes Genius for lyrics",
   "main": "quicklyrics.js",
   "scripts": {
